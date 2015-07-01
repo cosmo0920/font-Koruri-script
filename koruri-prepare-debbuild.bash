@@ -9,7 +9,8 @@ cd Koruri-Koruri-${KORURIVER}
 mv README.md README_E.md
 # add extension `.txt`
 mv LICENSE LICENSE.txt
-cp ../mplus-LICENSE/* .
+# No more needed. ref: https://github.com/Koruri/Koruri/pull/1
+# cp ../mplus-LICENSE/* .
 rm -rf sfd
 cd -
 tar Jcfv fonts-koruri_${KORURIVER}.orig.tar.xz Koruri-Koruri-${KORURIVER}
