@@ -1,6 +1,6 @@
 #!/bin/bash
 
-KORURIVER=20140524
+KORURIVER=20150701
 wget https://github.com/Koruri/Koruri/archive/Koruri-${KORURIVER}.tar.gz
 tar xzvf Koruri-${KORURIVER}.tar.gz
 
