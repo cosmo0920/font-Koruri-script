@@ -11,8 +11,6 @@ prepare script for debian packageing font Koruri
 
 ## how to use
 
-* before using this script, it needs download `Koruri-20140524.tar.xz`
+* execute `bash koruri-prepare-debbuild.sh`.
 
-* then, execute `bash koruri-prepare-debbuild.sh`.
-
-* finally, this script creates `fonts-koruri_20140524.orig.tar.xz`.
+* finally, this script creates `fonts-koruri_${KORURIVER}.orig.tar.xz` in parent directory.
